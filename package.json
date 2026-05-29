@@ -1,7 +1,7 @@
 {
-  "name": "week3-crud-api-",
+  "name": "week3-crud-todo-api-",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
@@ -9,11 +9,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is a simple RESTful Todo API built using Node.js and Express.js. It demonstrates CRUD operations, input validation, and filtering using in-memory data storage.",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmachingur-code/week3-crud-todo-api.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tmachingur-code/week3-crud-todo-api/issues"
+  },
+  "homepage": "https://github.com/tmachingur-code/week3-crud-todo-api#readme"
 }
